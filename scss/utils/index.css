@@ -1,0 +1,38 @@
+/* transform */
+@font-face {
+  font-family: "gallery_modernregular";
+  src: url("../fonts/gallerymodern-webfont.woff2") format("woff2"), url("../fonts/gallerymodern-webfont.woff") format("woff"), url("../fonts/gallerymodern-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  /**
+  @font family declaration
+  */
+  --tp-ff-body: "Plus Jakarta Sans", sans-serif;
+  --tp-ff-heading: "Plus Jakarta Sans", sans-serif;
+  --tp-ff-p: "Plus Jakarta Sans", sans-serif;
+  --tp-ff-syne: "Plus Jakarta Sans", sans-serif;
+  --tp-ff-gallery: "Plus Jakarta Sans", sans-serif;
+  --tp-ff-shoulders: "Plus Jakarta Sans";
+  --tp-ff-marcellus: "Plus Jakarta Sans", sans-serif;
+  --tp-ff-aladin: "Plus Jakarta Sans", system-ui;
+  --tp-ff-fontawesome: "Font Awesome 6 Pro";
+  /**
+  @color declaration
+  */
+  --tp-common-white: #F5F7F5;
+  --tp-common-white-solid: #fff;
+  --tp-common-black: #1c4b42;
+  --tp-common-black-2: #1c4b42;
+--tp-common-black-3: #1c4b42;
+  --tp-common-dark: #121212;
+  --tp-common-orange: #EB5939;
+  --tp-grey-1: #262626;
+  --tp-grey-2: #F4F4F4;
+  --tp-grey-3: #5D5D63;
+  --tp-grey-4: #F7F7F7;
+  --tp-text-body: #5D5D63;
+  --tp-theme-1: #336EF9;
+  --tp-border-1: #EAEAEB;
+}/*# sourceMappingURL=index.css.map */
