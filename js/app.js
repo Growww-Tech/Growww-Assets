@@ -11,7 +11,7 @@ window.addEventListener('resize', init);
 
 
 images.forEach((img, idx) => { 
-	img.style.backgroundImage = `url(./https://growww-assets-cdn.pages.dev/img/home-12/portfolio/port-${idx+1}.jpg)`;
+	img.style.backgroundImage = `url(../img/home-12/portfolio/port-${idx+1}.jpg)`;
 })
 
 function lerp(start, end, t){ 
