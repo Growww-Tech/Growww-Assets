@@ -4491,7 +4491,7 @@
 }
 .tp-hero-title {
   font-weight: 400;
-  font-size: 220px;
+  font-size: 180px;
   line-height: 1;
   color: var(--tp-common-black);
   font-family: var(--tp-ff-gallery);
@@ -4553,7 +4553,7 @@
   line-height: 1;
   position: absolute;
   top: 45px;
-  left: -17%;
+  left: -25%;
   color: var(--tp-common-black);
   font-family: var(--tp-ff-body);
   text-align: left;
