@@ -11549,6 +11549,7 @@ body.tp-magic-cursor #magic-cursor {
   color: var(--tp-common-black);
   font-family: var(--tp-ff-body);
   text-align: left;
+  letter-spacing: 0px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-hero-subtitle {
