@@ -43,4 +43,20 @@
         .tp-footer-2-widget-text h2 {
             font-size: 25px;
         }
+        .tp-footer-2-widget-menu ul li a {
+            font-size: 14px;
+        }
+        .tp-footer-2-widget-title {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 14px;
+        }
+        h6 {
+            font-size: 14px;
+        }
+        .tp-copyright-2-left p {
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
 }
