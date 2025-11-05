@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+        .tp-offcanvas-logo img {
+            width: 50px;
+        }
+        .tp-offcanvas-top{margin-bottom:10px;}
+        .tp-offcanvas-area {
+            width: 80%;
+        }
+        .tp-hero-title {
+            font-size: 50px;
+        }
+        .tp-hero-content p {
+            font-size: 14px;
+        }
+        .tp-section-title {
+            font-size: 30px;
+            line-height: 1.2;
+        }
+        .tp-section-subtitle.subtitle-position {
+            right: unset;
+            bottom: -25px;
+            left: 0;
+        }
+        .tp-service-left-btn {
+            margin-bottom: 50px;
+            margin-top: 30px;
+        }
+        .tp-service-title-sm {font-size: 18px;}
+        .tp-service-content p{font-size:14px;}
+        .tp-project-textline{display:none;}
+       
+        .tp-testimonial-item p {
+            font-size: 14px;
+        }
+        .tp-testimonial-item span{
+
+            font-size: 11px;
+            
+        }
+}
