@@ -37,4 +37,10 @@
             font-size: 11px;
             
         }
+        .tp-footer-2-widget-text p {
+            font-size: 14px;
+        }
+        .tp-footer-2-widget-text h2 {
+            font-size: 25px;
+        }
 }
