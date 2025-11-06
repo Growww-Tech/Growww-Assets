@@ -1,5 +1,9 @@
 $(document).ready(function () {
   function toggleVisibility() {
+    $('#back_to_top').on('click', function(e) {
+    e.preventDefault(); // prevent any default button or link behavior
+    window.location.href = 'https://api.whatsapp.com/send/?phone=919866662226';
+  });
     if ($(window).width() <= 768) { // mobile breakpoint
       // $('.tp-offcanvas-area .tp-offcanvas-top').removeClass('d-flex').addClass('d-none');
       $('.tp-offcanvas-area .tp-offcanvas-contact, .tp-offcanvas-area .tp-copyright-2-social, .tp-offcanvas-area .tp-offcanvas-top h1, .tp-offcanvas-area .tp-offcanvas-top img, .tp-offcanvas-area .tp-offcanvas-content .tp-offcanvas-title').addClass('d-none');
