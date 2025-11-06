@@ -31,7 +31,8 @@
             margin-bottom: 50px;
             margin-top: 30px;
         }
-        .tp-service-title-sm, .tp-service-4-title-sm {font-size: 18px;text-decoration:none !important;}
+        .tp-service-title-sm, .tp-service-4-title-sm {font-size: 18px;}
+        .tp-service-4-title-sm a{text-decoration:none !important;}
         .tp-project-textline{display:none;}
        
          
