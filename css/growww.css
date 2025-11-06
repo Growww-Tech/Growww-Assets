@@ -6,12 +6,18 @@
         .tp-offcanvas-area {
             width: 80%;
         }
-        .tp-hero-title {
+        .tp-hero-title, .sv-hero-title {
             font-size: 50px;
         }
-        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p  {
+        .sv-hero-title {
+            letter-spacing: -3px;
+        }
+        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p, .sv-hero-title-box p  {
             font-size: 14px;
         }
+
+        .sv-hero-thumb-box img {object-fit:cover;}
+
         .tp-section-title {
             font-size: 30px;
             line-height: 1.2;
