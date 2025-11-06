@@ -8,6 +8,7 @@ $(document).ready(function () {
 
       // replace footer spacing for smaller screens
       $('.tp-footer-2-area .col-xl-3, .tp-footer-2-area .col-xl-4').removeClass('mb-50').addClass('mb-5');
+      $('.tp-service-5-area .tp-service-5-title-box .ab-inner-subtitle').removeClass('mb-20').addClass('mb-5');
       $('.tp-footer-2-area').removeClass('pb-20').addClass('pb-5');
     } else {
       // $('.tp-offcanvas-area .tp-offcanvas-top').removeClass('d-none').addClass('d-flex');
@@ -16,6 +17,7 @@ $(document).ready(function () {
 
       // restore original footer spacing on larger screens
       $('.tp-footer-2-area .col-xl-3, .tp-footer-2-area .col-xl-4').removeClass('mb-5').addClass('mb-50');
+      $('.tp-service-5-area .tp-service-5-title-box .ab-inner-subtitle').removeClass('mb-5').addClass('mb-20');
       $('.tp-footer-2-area').removeClass('pb-5').addClass('pb-20');
     }
   }
