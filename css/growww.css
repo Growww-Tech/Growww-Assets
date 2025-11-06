@@ -37,7 +37,10 @@
         .tp-service-4-title-sm a{text-decoration:none !important;}
         .tp-project-textline{display:none;}
        
-         
+         .sv-big-text {
+            font-size: 70px;
+            letter-spacing: -4px;
+        }
         .tp-testimonial-item span{
 
             font-size: 11px;
