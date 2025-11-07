@@ -6,7 +6,7 @@
         .tp-offcanvas-area {
             width: 80%;
         }
-        .tp-hero-title, .sv-hero-title {
+        .tp-hero-title, .sv-hero-title, .sv-big-text  {
             font-size: 50px;
         }
         .sv-hero-title {
@@ -38,7 +38,6 @@
         .tp-project-textline{display:none;}
        
          .sv-big-text {
-            font-size: 70px;
             letter-spacing: -4px;
         }
         .tp-testimonial-item span{
