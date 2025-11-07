@@ -12,7 +12,7 @@
         .sv-hero-title {
             letter-spacing: -3px;
         }
-        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p, .sv-hero-title-box p, .tp-service-5-item .tp-service-4-content p, .sv-service-text p {
+        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p, .sv-hero-title-box p, .tp-service-5-item .tp-service-4-content p, .sv-service-text p, .tm-hero-subtitle {
             font-size: 14px;
         }
         .sv-service-subtitle, .sv-service-list ul li {
@@ -32,6 +32,9 @@
         .tp-service-left-btn {
             margin-bottom: 50px;
             margin-top: 30px;
+        }
+        .tm-hero-ptb {
+            padding-top: 90px;
         }
         .tp-service-title-sm, .tp-service-4-title-sm {font-size: 18px;}
         .tp-service-4-title-sm a{text-decoration:none !important;}
