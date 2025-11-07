@@ -40,7 +40,7 @@
         .tp-service-4-title-sm a{text-decoration:none !important;}
         .tp-project-textline{display:none;}
        
-         .sv-big-text {
+         .sv-big-text, .tm-hero-title-big  {
             letter-spacing: -4px;
         }
         .tp-testimonial-item span{
