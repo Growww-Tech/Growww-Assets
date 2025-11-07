@@ -46,6 +46,9 @@
             font-size: 11px;
             
         }
+        .sv-small-text-box span {
+            font-size: 12px;
+        }
           
         .tp-footer-2-widget-text h2, .sv-service-title {
             font-size: 25px;
