@@ -36,7 +36,7 @@
         .tm-hero-ptb {
             padding-top: 90px;
             padding-bottom: 30px;
-}
+
         }
         .tp-service-title-sm, .tp-service-4-title-sm {font-size: 18px;}
         .tp-service-4-title-sm a{text-decoration:none !important;}
@@ -66,4 +66,5 @@
             margin-bottom: 12px;
         }
         .back-to-top-btn-show{display:none;}
-}
+
+    }
