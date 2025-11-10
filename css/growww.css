@@ -18,7 +18,7 @@
         .sv-hero-title {
             letter-spacing: -3px;
         }
-        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p, .sv-hero-title-box p, .tp-service-5-item .tp-service-4-content p, .sv-service-text p, .tm-hero-subtitle, .tp-btn-border-wrap, .tm-hero-area p, .portfolio-filter button {
+        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p, .sv-hero-title-box p, .tp-service-5-item .tp-service-4-content p, .sv-service-text p, .tm-hero-subtitle, .tp-btn-border-wrap, .tm-hero-area p, .portfolio-filter button, .tp-project-5-2-category span, .tp-project-5-2-meta {
             font-size: 14px;
         }
         .sv-service-subtitle, .sv-service-list ul li {
@@ -61,7 +61,7 @@
             font-size: 12px;
         }
           
-        .tp-footer-2-widget-text h2, .sv-service-title {
+        .tp-footer-2-widget-text h2, .sv-service-title, .tp-project-5-2-title-sm  {
             font-size: 25px;
         }
         
@@ -88,5 +88,6 @@
             margin: 0px 8px;
             margin-bottom: 16px;
         }
+        .tp-project-5-2-category, .tp-project-5-2-content{padding:16px;}
 
     }
