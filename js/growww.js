@@ -17,7 +17,7 @@ $(document).ready(function () {
       $('.ab-about-category-title-box').removeClass('mb-40').addClass('mb-10');
       $('.cn-contactform-area').removeClass('pb-100').addClass('pb-50');
       $('.cn-contactform-support-area').removeClass('mb-120').addClass('mb-50');
-
+      $('.cn-contact-2-info-area').removeClass('pb-90').addClass('pb-5');
       // add mobile margin to sv-small-text-box
       $('.sv-small-text-box').addClass('mb-5');
     } else {
@@ -32,6 +32,7 @@ $(document).ready(function () {
       $('.ab-about-category-title-box').removeClass('mb-10').addClass('mb-40');
       $('.cn-contactform-area').removeClass('pb-50').addClass('pb-100');
       $('.cn-contactform-support-area').removeClass('mb-50').addClass('mb-120');
+      $('.cn-contact-2-info-area').removeClass('pb-5').addClass('pb-90');
 
       // remove mobile margin from sv-small-text-box
       $('.sv-small-text-box').removeClass('mb-5');
