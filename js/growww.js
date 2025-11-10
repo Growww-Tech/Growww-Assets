@@ -19,6 +19,7 @@ $(document).ready(function () {
       $('.cn-contactform-support-area').removeClass('mb-120').addClass('mb-50');
       $('.cn-contact-2-info-area').removeClass('pb-90').addClass('pb-5');
       $('.tp-project-5-2-area .portfolio-filter').removeClass('mb-60').addClass('mb-15');
+      $('.tp-project-5-2-area').removeClass('pb-130').addClass('pb-5');
       // add mobile margin to sv-small-text-box
       $('.sv-small-text-box').addClass('mb-5');
     } else {
@@ -35,6 +36,7 @@ $(document).ready(function () {
       $('.cn-contactform-support-area').removeClass('mb-50').addClass('mb-120');
       $('.cn-contact-2-info-area').removeClass('pb-5').addClass('pb-90');
       $('.tp-project-5-2-area .portfolio-filter').removeClass('mb-15').addClass('mb-60');
+      $('.tp-project-5-2-area').removeClass('pb-5').addClass('pb-130');
 
       // remove mobile margin from sv-small-text-box
       $('.sv-small-text-box').removeClass('mb-5');
