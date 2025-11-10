@@ -1,3 +1,9 @@
+.gw-social-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
 @media (max-width: 768px) {
         .tp-offcanvas-logo img {
             width: 50px;
@@ -20,7 +26,7 @@
         }
         .sv-hero-thumb-box img {object-fit:cover;}
 
-        .tp-section-title {
+        .tp-section-title,.cn-contact-2-title {
             font-size: 30px;
             line-height: 1.2;
         }
@@ -33,6 +39,7 @@
             margin-bottom: 50px;
             margin-top: 30px;
         }
+
         .tm-hero-ptb {
             padding-top: 90px;
             padding-bottom: 30px;
@@ -66,5 +73,12 @@
             margin-bottom: 12px;
         }
         .back-to-top-btn-show{display:none;}
+        .cn-contactform-support-text span {
+            font-size: 24px;
+            line-height: 40px;
+        }
+        .cn-contactform-support-bg{height: 250px;}
+        .cn-contact-2-title{letter-spacing: -1px; margin-bottom: 16px;}
+        .cn-contact-2-content{padding: 20px 16px;}
 
     }
