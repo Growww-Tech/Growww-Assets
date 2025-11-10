@@ -18,7 +18,7 @@
         .sv-hero-title {
             letter-spacing: -3px;
         }
-        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p, .sv-hero-title-box p, .tp-service-5-item .tp-service-4-content p, .sv-service-text p, .tm-hero-subtitle, .tp-btn-border-wrap {
+        h5, h6, .tp-hero-content p, .tp-service-content p, .tp-testimonial-item p, .tp-footer-2-widget-text p, .tp-footer-2-widget-menu ul li a, .tp-copyright-2-left p, .sv-hero-title-box p, .tp-service-5-item .tp-service-4-content p, .sv-service-text p, .tm-hero-subtitle, .tp-btn-border-wrap, .tm-hero-area p {
             font-size: 14px;
         }
         .sv-service-subtitle, .sv-service-list ul li {
