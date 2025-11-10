@@ -80,5 +80,9 @@
         .cn-contactform-support-bg{height: 250px;}
         .cn-contact-2-title{letter-spacing: -1px; margin-bottom: 16px;}
         .cn-contact-2-content{padding: 20px 16px;}
+        .cn-contact-2-info-details a{
+            font-size: 14px;
+            max-width:unset
+        }
 
     }
