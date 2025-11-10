@@ -89,6 +89,6 @@
             margin-bottom: 16px;
         }
         .tp-project-5-2-category, .tp-project-5-2-content{padding:16px;}
-        .tp-project-gallery-wrapper{display:none;}
+        .tp-project-gallery-wrapper .tp-project-gallery-top{display:none;}
 
     }
