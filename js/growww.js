@@ -46,3 +46,51 @@ $(document).ready(function () {
   toggleVisibility(); // run on page load
   $(window).resize(toggleVisibility); // run on resize
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const track = document.querySelector(".pvs-track-demo");
+    const progressBar = document.querySelector(".pvs-progress-bar-demo");
+    const prevBtn = document.querySelector(".pvs-prev-demo");
+    const nextBtn = document.querySelector(".pvs-next-demo");
+
+    function updateProgress() {
+      const maxScroll = track.scrollWidth - track.clientWidth;
+      const scrollPercentage = (track.scrollLeft / maxScroll) * 100;
+      progressBar.style.width = scrollPercentage + "%";
+    }
+
+    // Scroll left/right
+    prevBtn.addEventListener("click", () => {
+      track.scrollBy({ left: -track.clientWidth, behavior: "smooth" });
+    });
+    nextBtn.addEventListener("click", () => {
+      track.scrollBy({ left: track.clientWidth, behavior: "smooth" });
+    });
+
+    track.addEventListener("scroll", updateProgress);
+    window.addEventListener("resize", updateProgress);
+    updateProgress();
+
+    document.querySelectorAll('.pvs-video-item-demo video').forEach(video => {
+      video.play().catch(err => console.log("Autoplay blocked:", err));
+    });
+
+    // Drag scroll
+    let isDown = false, startX, scrollLeft;
+    track.addEventListener("mousedown", (e) => {
+      isDown = true;
+      track.classList.add("active");
+      startX = e.pageX - track.offsetLeft;
+      scrollLeft = track.scrollLeft;
+    });
+    track.addEventListener("mouseleave", () => { isDown = false; track.classList.remove("active"); });
+    track.addEventListener("mouseup", () => { isDown = false; track.classList.remove("active"); });
+    track.addEventListener("mousemove", (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - track.offsetLeft;
+      const walk = (x - startX) * 1.5;
+      track.scrollLeft = scrollLeft - walk;
+    });
+});

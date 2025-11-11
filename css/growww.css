@@ -92,3 +92,92 @@
         .tp-project-gallery-wrapper .tp-project-gallery-top{display:none;}
 
     }
+
+
+.pvs-wrapper-demo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Hide entire section on desktop */
+@media (min-width: 768px) {
+    .pvs-wrapper-demo {
+      display: none;
+    }
+  }
+
+  .pvs-slider-demo {
+    position: relative;
+  }
+
+  .pvs-track-demo {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    cursor: grab;
+  }
+
+  .pvs-track-demo.active {
+    cursor: grabbing;
+  }
+
+  .pvs-track-demo::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pvs-slide-demo {
+    flex: 0 0 calc(100% / 2);
+    padding: 0 6px;
+    scroll-snap-align: start;
+  }
+
+  .pvs-video-item-demo video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 9 / 16;
+    border-radius: 0px;
+  }
+
+  /* --- Arrows --- */
+  .pvs-arrow-demo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .pvs-prev-demo {
+    left: 8px;
+  }
+
+  .pvs-next-demo {
+    right: 8px;
+  }
+
+  /* --- Progress Bar --- */
+  .pvs-progress-demo {
+    position: relative;
+    height: 4px;
+    background: rgba(0,0,0,0.05);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 12px;
+  }
+
+  .pvs-progress-bar-demo {
+    height: 100%;
+    width: 0%;
+    background: rgba(0,0,0,0.9);
+    border-radius: 2px;
+    transition: width 0.2s ease-out;
+  }
